@@ -1,7 +1,7 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "data": {
-    "related_address": [
+    "relatedAddress": [
       "0x79FF4a21D9E248e0b8D1E1af3527CCf88f17C3E8",
       "0x9726385c9B05e170C22eDe113d94350cb86Dac60",
       "0xc2A6F8b5d329B1258B3240b0aDc7C4D70f8FAEf2",
