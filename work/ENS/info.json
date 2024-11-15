@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "data": {
     "related_address": [
       "0x79FF4a21D9E248e0b8D1E1af3527CCf88f17C3E8",
@@ -12,7 +12,201 @@
       "0xE1b08A748aDd2798C358b36b139404e5Cb63089c",
       "0x662557424fc87C10E550323a680d84Ad5CD7A229"
     ],
-    "address": "0xA19C68Bcb04f548D4d83Bf7B632eE10DBE7E133d",
-    "address_storage": "0x2C592e07D60E32260b68ba2E193A9dCE1cef6A3C"
+    "functions": {
+      "getAll": {
+        "to": "0xA19C68Bcb04f548D4d83Bf7B632eE10DBE7E133d",
+        "abiData": [
+          {
+            "inputs": [
+              {
+                "internalType": "bytes32",
+                "name": "node",
+                "type": "bytes32"
+              }
+            ],
+            "name": "getAll",
+            "outputs": [
+              {
+                "components": [
+                  {
+                    "internalType": "address",
+                    "name": "addr",
+                    "type": "address"
+                  },
+                  {
+                    "internalType": "string",
+                    "name": "avatar",
+                    "type": "string"
+                  },
+                  {
+                    "internalType": "string",
+                    "name": "email",
+                    "type": "string"
+                  },
+                  {
+                    "internalType": "string",
+                    "name": "telegram",
+                    "type": "string"
+                  },
+                  {
+                    "internalType": "string",
+                    "name": "twitter",
+                    "type": "string"
+                  },
+                  {
+                    "internalType": "string",
+                    "name": "discord",
+                    "type": "string"
+                  },
+                  {
+                    "internalType": "string",
+                    "name": "description",
+                    "type": "string"
+                  },
+                  {
+                    "internalType": "string",
+                    "name": "github",
+                    "type": "string"
+                  },
+                  {
+                    "internalType": "string",
+                    "name": "customdomain",
+                    "type": "string"
+                  },
+                  {
+                    "internalType": "string",
+                    "name": "name",
+                    "type": "string"
+                  },
+                  {
+                    "internalType": "string",
+                    "name": "youtube",
+                    "type": "string"
+                  },
+                  {
+                    "internalType": "bytes",
+                    "name": "contenthash",
+                    "type": "bytes"
+                  },
+                  {
+                    "internalType": "string",
+                    "name": "url",
+                    "type": "string"
+                  },
+                  {
+                    "internalType": "string",
+                    "name": "ggdrive",
+                    "type": "string"
+                  }
+                ],
+                "internalType": "struct PublicResolver.GetInfo",
+                "name": "getinfo",
+                "type": "tuple"
+              }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+          }
+        ],
+        "feeType": "user"
+      },
+      "getDomainInfo": {
+        "to": "0x2C592e07D60E32260b68ba2E193A9dCE1cef6A3C",
+        "abiData": [
+          {
+            "inputs": [
+              {
+                "internalType": "string",
+                "name": "_customDomain",
+                "type": "string"
+              }
+            ],
+            "name": "getDomainInfo",
+            "outputs": [
+              {
+                "components": [
+                  {
+                    "internalType": "address",
+                    "name": "addr",
+                    "type": "address"
+                  },
+                  {
+                    "internalType": "string",
+                    "name": "avatar",
+                    "type": "string"
+                  },
+                  {
+                    "internalType": "string",
+                    "name": "email",
+                    "type": "string"
+                  },
+                  {
+                    "internalType": "string",
+                    "name": "telegram",
+                    "type": "string"
+                  },
+                  {
+                    "internalType": "string",
+                    "name": "twitter",
+                    "type": "string"
+                  },
+                  {
+                    "internalType": "string",
+                    "name": "discord",
+                    "type": "string"
+                  },
+                  {
+                    "internalType": "string",
+                    "name": "description",
+                    "type": "string"
+                  },
+                  {
+                    "internalType": "string",
+                    "name": "github",
+                    "type": "string"
+                  },
+                  {
+                    "internalType": "string",
+                    "name": "customdomain",
+                    "type": "string"
+                  },
+                  {
+                    "internalType": "string",
+                    "name": "name",
+                    "type": "string"
+                  },
+                  {
+                    "internalType": "string",
+                    "name": "youtube",
+                    "type": "string"
+                  },
+                  {
+                    "internalType": "bytes",
+                    "name": "contenthash",
+                    "type": "bytes"
+                  },
+                  {
+                    "internalType": "string",
+                    "name": "url",
+                    "type": "string"
+                  },
+                  {
+                    "internalType": "string",
+                    "name": "ggdrive",
+                    "type": "string"
+                  }
+                ],
+                "internalType": "struct PublicResolver.GetInfo",
+                "name": "getinfo",
+                "type": "tuple"
+              }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+          }
+        ],
+        "feeType": "user"
+      }
+    }
   }
 }
