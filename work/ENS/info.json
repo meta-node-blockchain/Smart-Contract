@@ -1,20 +1,20 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "data": {
     "relatedAddress": [
-      "0x79FF4a21D9E248e0b8D1E1af3527CCf88f17C3E8",
-      "0x9726385c9B05e170C22eDe113d94350cb86Dac60",
-      "0xc2A6F8b5d329B1258B3240b0aDc7C4D70f8FAEf2",
-      "0xb3C57E29Ac5Ce0b963AE5c52c7fC9daC8d65006D",
-      "0xA89977d6DEAc096DA10c8dD989Fe102923a390CA",
-      "0xA61279360AB42677553af9c0950f11d1Bf0018d1",
-      "0xe2790753B5130a15cd0F560a6A79440E96128A2c",
-      "0xE1b08A748aDd2798C358b36b139404e5Cb63089c",
-      "0x662557424fc87C10E550323a680d84Ad5CD7A229"
+      "0x6d17c6eCdCe186Eac734feCF9298575BF9A04436",
+      "0x90062c26523f5BFC4327e92BA696D98F11780ab2",
+      "0x7d21BeD4F3C3A655DbBE054EE75dAe48f7a9990d",
+      "0x226d7bBe9B4ebA26F5D0DEc6d96c7B38fe7955a4",
+      "0xbd7E5F7C07432F5ACb1cEa5F20396b36eBe517D1",
+      "0x77D7B14209e76E7A364ae298c6062da5Be7F958B",
+      "0xb63984880131686fA0FC09aa9fE1159CE54fD739",
+      "0x6aFDaC954897c506506a2E3F76366c6891C1801E",
+      "0xf7950e64974B96dDb7936C0411838654cbf3f71F"
     ],
     "functions": {
       "getAll": {
-        "to": "0xA19C68Bcb04f548D4d83Bf7B632eE10DBE7E133d",
+        "to": "0x39929f8c4649e6Bd1FBb4234d2c198FB722E7801",
         "abiData": [
           {
             "inputs": [
@@ -111,7 +111,7 @@
         "feeType": "user"
       },
       "getDomainInfo": {
-        "to": "0x2C592e07D60E32260b68ba2E193A9dCE1cef6A3C",
+        "to": "0xfc3c4B6Fd8d1a16372156Cbb8bD70BCD16BaBcD5",
         "abiData": [
           {
             "inputs": [
