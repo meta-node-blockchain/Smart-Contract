@@ -1,5 +1,5 @@
 {
-  "version": "1.0.4",
+  "version": "1.0.5",
   "data": {
     "relatedAddress": [
       "0x6d17c6eCdCe186Eac734feCF9298575BF9A04436",
@@ -10,7 +10,8 @@
       "0x77D7B14209e76E7A364ae298c6062da5Be7F958B",
       "0xb63984880131686fA0FC09aa9fE1159CE54fD739",
       "0x6aFDaC954897c506506a2E3F76366c6891C1801E",
-      "0xf7950e64974B96dDb7936C0411838654cbf3f71F"
+      "0xf7950e64974B96dDb7936C0411838654cbf3f71F",
+      "0xfc3c4B6Fd8d1a16372156Cbb8bD70BCD16BaBcD5"
     ],
     "functions": {
       "getAll": {
@@ -111,7 +112,7 @@
         "feeType": "user"
       },
       "getDomainInfo": {
-        "to": "0xfc3c4B6Fd8d1a16372156Cbb8bD70BCD16BaBcD5",
+        "to": "0xf7950e64974B96dDb7936C0411838654cbf3f71F",
         "abiData": [
           {
             "inputs": [
